@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70e6fdfb-89fe-4b9f-9f80-99682cd5b655" name="Changes" comment="Testes unitários classe Pizza">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oojava/coursera/CarrinhoDeCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oojava/coursera/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oojava/coursera/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PizzaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CarrinhoDeComprasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PizzaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PizzaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PizzaTest">
+  <component name="RunManager" selected="JUnit.CarrinhoDeComprasTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oojava.coursera.Main" />
       <module name="Atv2Coursera" />
@@ -83,6 +76,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarrinhoDeComprasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Atv2Coursera" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarrinhoDeComprasTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarrinhoDeComprasTest.testAddSemIng" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Atv2Coursera" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarrinhoDeComprasTest" />
+      <option name="METHOD_NAME" value="testAddSemIng" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,10 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarrinhoDeComprasTest" />
+        <item itemvalue="JUnit.CarrinhoDeComprasTest.testAddSemIng" />
         <item itemvalue="JUnit.PizzaTest" />
         <item itemvalue="JUnit.PizzaTest.testAddIng" />
         <item itemvalue="JUnit.PizzaTest.testAddIng" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -124,8 +137,16 @@
       <option name="presentableId" value="Default" />
       <updated>1681436399571</updated>
       <workItem from="1681436400674" duration="2647000" />
-      <workItem from="1681522329178" duration="1944000" />
+      <workItem from="1681522329178" duration="2616000" />
     </task>
+    <task id="LOCAL-00001" summary="Testes unitários classe Pizza">
+      <created>1681524584041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681524584041</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

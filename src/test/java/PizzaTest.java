@@ -5,43 +5,35 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class PizzaTest {
 
-    private CarrinhoDeCompras c;
-    private Pizza p1;
-    private Pizza p2;
-    private Pizza p3;
-
+    private Pizza p;
 
     @Before
     public void criarObjetos() {
-        this.p1 = new Pizza();
-        this.p2 = new Pizza();
-        this.p3 = new Pizza();
-        this.c = new CarrinhoDeCompras();
+        this.p = new Pizza();
+
     }
     @After
     public void zerarIngredientes(){
-        this.p1.zerarIng();
-        this.p2.zerarIng();
-        this.p3.zerarIng();
+        this.p.zerarIng();
     }
     @Test
     public void testPreco(){
 
-        p1.adicionaIngrediente("Frango");
-        p1.adicionaIngrediente("Catupiry");
-        assertEquals(15, p1.getPreco());
+        p.adicionaIngrediente("Frango");
+        p.adicionaIngrediente("Catupiry");
+        assertEquals(15, p.getPreco());
 
-        p1.adicionaIngrediente("Milho");
-        p1.adicionaIngrediente("Ervilha");
-        p1.adicionaIngrediente("Molho");
-        assertEquals(20,p1.getPreco());
+        p.adicionaIngrediente("Milho");
+        p.adicionaIngrediente("Ervilha");
+        p.adicionaIngrediente("Molho");
+        assertEquals(20,p.getPreco());
 
-        p1.adicionaIngrediente("Cebola");
-        assertEquals(23,p1.getPreco());
+        p.adicionaIngrediente("Cebola");
+        assertEquals(23,p.getPreco());
     }
     @Test
     public void testAddIng(){
-        p2.adicionaIngrediente("Muçarela");
-        assertNotNull(p2.getIngrediente());
+        p.adicionaIngrediente("Muçarela");
+        assertNotNull(p.getIngrediente());
     }
 }
